@@ -1,0 +1,69 @@
+body {
+    background: #EFEFEF;
+    color: #242424;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: all .3s ease;
+}
+
+a:hover {
+    color: #e97b7e;
+}
+
+.main-box {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.btn-submit {
+    background: #f6aa1c;
+    color: #fafafa;
+    transition: all .5s ease
+}
+
+.btn-submit:hover {
+    color: #fafafa;
+    background: #495057
+}
+
+.show-box {
+    width: 12rem;
+}
+
+.btn-download {
+    background: #e97b7e;
+    color: #fafafa;
+    transition: all .5s ease;
+}
+
+.btn-download:hover {
+    background: #E15155;
+    color: #fafafa;
+}
+
+.choice {
+    width: 12rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.btn-choice {
+    width: 50%;
+}
+
+.active {
+    background: gray;
+    color: #fafafa;
+
+}
+
+#audio {
+    display: none;
+}
+
+.btn:hover {
+    color: #fafafa;
+}
