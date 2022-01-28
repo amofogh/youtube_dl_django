@@ -55,32 +55,6 @@ def home(request):
 
             context['files'].append(files_info)
 
-    # videos_info = []
-    # for video in videos:
-    #     quality = video.resolution
-    #     downloadForm = download_video_form(request.POST or None,
-    #                                        initial={'link': link, 'quality': quality})
-    #     # .2f mean 2 number in decimal digits
-    #     size = format(bytes_to(video.filesize, 'm'), '.2f')
-    #     videos_info.append(
-    #         {'quality': quality, 'mimetype': video.mime_type, 'size': size,
-    #          'download_form': downloadForm})
-    #
-    # context['videos_info'] = videos_info
-    #
-    # audios_info = []
-    # for audio in audios:
-    #     quality = audio.abr
-    #     downloadForm = download_video_form(request.POST or None,
-    #                                        initial={'link': link, 'quality': quality})
-    #     # .2f mean 2 number in decimal digits
-    #     size = format(bytes_to(audio.filesize, 'm'), '.2f')
-    #     audios_info.append(
-    #         {'quality': quality, 'mimetype': audio.mime_type, 'size': size,
-    #          'download_form': downloadForm})
-    #
-    # context['audios_info'] = audios_info
-
     return render(request, 'home.html', context)
 
 
