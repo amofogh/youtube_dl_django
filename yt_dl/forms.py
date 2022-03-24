@@ -4,7 +4,7 @@ from re import match
 
 class link_form(forms.Form):
     link = forms.URLField(widget=forms.URLInput(attrs={'placeholder': 'Paste your link here',
-                                                       'class': 'form-control p-3 shadow-lg border-0',
+                                                       'class': 'form-control p-3 shadow-lg border-0 text-left' ,
                                                        'onpaste': 'Pasted()',
                                                        'id': 'input-link'}))
 
